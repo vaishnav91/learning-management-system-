@@ -37,12 +37,14 @@ This project was built to strengthen real-world backend development skills and t
 ---
 
 ## Project Structure
+```text
 src/main/java
 └── com.example.lms
-├── controller
-├── service
-├── repository
-└── entity
+    ├── controller
+    ├── service
+    ├── repository
+    └── entity
+```
 
 ---
 
@@ -83,10 +85,10 @@ http://localhost:8080
 
 ## Sample API Endpoints
 
-POST /api/courses
-GET /api/courses
-POST /api/courses/{courseId}/modules
-POST /api/modules/{moduleId}/lessons
+- **POST** `/api/courses`  
+- **GET** `/api/courses`
+- **POST** `/api/courses/{courseId}/modules`
+- **POST** `/api/modules/{moduleId}/lessons`
 
 ## Future Enhancements
 
